@@ -1,0 +1,226 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDF2C5;
+    width: 1440px;
+    height: 1024px;
+}
+
+/*字型調整(共四種)*/
+.h1 {
+    font-size: 44px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: normal;
+}
+
+.h2 {
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+
+.text2 {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+/*區域調整*/
+/*header 的原件*/
+.header {
+    position: absolute;
+    top: 36px;
+    left: 160px;
+    width: 1122px;
+    height: 62px;
+    padding-bottom: 2px;
+    color: #778A50;
+}
+
+.h1-veg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.fb {
+    position: absolute;
+    top: 19px;
+    left: 914px;
+}
+
+.ig {
+    position: absolute;
+    top: 19px;
+    left: 950px;
+}
+
+.linhead {
+    display: inline-block;
+    position: absolute;
+    top: 19px;
+    left: 986px;
+    width: 1px;
+    height: 24px;
+    background-color: #778A50;
+}
+
+.butLOG {
+    display: inline-block;
+    position: absolute;
+    top: 19px;
+    left: 997px;
+    padding: 4px 8px;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.butJOI {
+    display: inline-block;
+    position: absolute;
+    top: 19px;
+    right: 0;
+    padding: 4px 8px;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    margin: 0;
+}
+
+/*導覽列*/
+.navigate {
+    position: absolute;
+    top: 106px;
+    left: 160px;
+    width: 1120px;
+    height: 44px;
+    color: #EDF2C5;
+    background-color: #778A50;
+}
+
+.nav-li {
+    display: inline-block;
+    list-style: none;
+}
+
+.li-home {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.li-About {
+    position: absolute;
+    top: 10px;
+    left: 141px;
+}
+
+.li-Vegetables {
+    position: absolute;
+    top: 10px;
+    left: 282px;
+}
+
+.li-Online {
+    position: absolute;
+    top: 10px;
+    left: 441px;
+}
+
+.li-Contact {
+    position: absolute;
+    top: 10px;
+    left: 557px;
+}
+
+/*中央大圖*/
+.pumpkin {
+    position: absolute;
+    top: 166px;
+    left: 160px;
+}
+
+/*左下vegtable區*/
+.Vegetables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 646px;
+    left: 160px;
+    width: 528px;
+    height: 201px;
+}
+
+.h2-veg {
+    display: block;
+    width: 528px;
+    height: 45px;
+    padding: 10px 406px 11px 30px;
+    color: #EDF2C5;
+    background-color: #778A50;
+}
+
+/*右下contact*/
+.Contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: absolute;
+    top: 646px;
+    left: 752px;
+    width: 528px;
+    height: 201px;
+}
+
+.h2-contact {
+    display: block;
+    width: 528px;
+    height: 45px;
+    padding: 10px 433px 11px 30px;
+    color: #EDF2C5;
+    background-color: #778A50;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 528px;
+    height: 148px;
+    padding: 16px;
+    background-color: #F7FBDA;
+}
+
+.lin-contact {
+    width: 496px;
+    height: 1px;
+    background: #7D7D7D;
+}
+
+/*footer*/
+.footer {
+    position: absolute;
+    top: 964px;
+    width: 1440px;
+    height: 60px;
+    padding: 21px 558px 21px 569px;
+    background-color: #778A50;
+    color: #EDF2C5;
+}
